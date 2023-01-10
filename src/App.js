@@ -26,7 +26,7 @@ function App() {
       <h1>think Todo</h1>
       <form className="App-form" onSubmit={handleAddTodo}>
         <input type="text" onInput={(e) => setInput(e.target.value)} />
-        <button type="submit">+</button>
+        <button type="submit">Add</button>
       </form>
       <div className="Todos">
         {count > 0 &&
